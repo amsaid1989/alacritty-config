@@ -1,0 +1,77 @@
+[scrolling]
+history = 10000
+multiplier = 3
+
+[colors.primary]
+background = "#282828"
+foreground = "#ebdbb2"
+bright_foreground = "#fbf1c7"
+dim_foreground = "#a89984"
+
+[colors.bright]
+black = "#696969"
+blue = "#007dff"
+cyan = "#00d0ce"
+green = "#00c515"
+magenta = "#ff0095"
+red = "#da1300"
+white = "#c6c6c4"
+yellow = "#fbff00"
+
+[colors.cursor]
+cursor = "CellForeground"
+text = "CellBackground"
+
+[colors.normal]
+black = "#10100e"
+blue = "#0088cc"
+cyan = "#00b5ab"
+green = "#00cc22"
+magenta = "#a645b3"
+red = "#d6002c"
+white = "#c6c6c4"
+yellow = "#ffd700"
+
+[colors.vi_mode_cursor]
+cursor = "CellForeground"
+text = "CellBackground"
+
+[cursor.style]
+shape = "Block"
+blinking = "Off"
+
+[font]
+size = 10
+
+[font.bold]
+family = "FiraCode Nerd Font"
+style = "Bold"
+
+[font.bold_italic]
+family = "FiraCode Nerd Font"
+style = "Bold Italic"
+
+[font.italic]
+family = "FiraCode Nerd Font"
+style = "Italic"
+
+[font.normal]
+family = "FiraCode Nerd Font"
+style = "Regular"
+
+[[keyboard.bindings]]
+action = "ScrollHalfPageUp"
+key = "PageUp"
+mode = "Vi|~Search"
+mods = "Shift"
+
+[[keyboard.bindings]]
+action = "ScrollHalfPageDown"
+key = "PageDown"
+mode = "Vi|~Search"
+mods = "Shift"
+
+[window]
+dynamic_title = true
+startup_mode = "Maximized"
+title = "Alacritty"
