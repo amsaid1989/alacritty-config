@@ -73,5 +73,5 @@ mods = "Shift"
 
 [window]
 dynamic_title = true
-startup_mode = "Maximized"
+startup_mode = "Fullscreen"
 title = "Alacritty"
