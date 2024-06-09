@@ -41,22 +41,22 @@ shape = "Block"
 blinking = "Off"
 
 [font]
-size = 9.5
+size = 10
 
 [font.bold]
-family = "FiraCode Nerd Font"
+family = "CaskaydiaMono NFM"
 style = "Bold"
 
 [font.bold_italic]
-family = "FiraCode Nerd Font"
+family = "CaskaydiaMono NFM"
 style = "Bold Italic"
 
 [font.italic]
-family = "FiraCode Nerd Font"
+family = "CaskaydiaMono NFM"
 style = "Italic"
 
 [font.normal]
-family = "FiraCode Nerd Font"
+family = "CaskaydiaMono NFM"
 style = "Regular"
 
 [[keyboard.bindings]]
